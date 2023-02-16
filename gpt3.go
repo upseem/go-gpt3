@@ -52,7 +52,7 @@ const (
 const (
 	defaultBaseURL        = "https://api.openai.com/v1"
 	defaultUserAgent      = "go-gpt3"
-	defaultTimeoutSeconds = 30
+	defaultTimeoutSeconds = 120
 )
 
 func getEngineURL(engine string) string {
